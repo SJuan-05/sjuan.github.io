@@ -1,0 +1,46 @@
+<rss version="2.0">
+<channel>
+    <title>ONG - Ayudemos Juntos</title>
+    <link>https://github.com/SJuan-05/SJuan05.github.io/blob/main/P%C3%A1gina%20web%20ONG/HTML/Principal.html</link>
+    <description>Recursos multimedia de la ONG Ayudemos Juntos, incluyendo fotos y videos de nuestras actividades y proyectos</description>
+    <language>es-ES</language>
+    
+    <image>
+    <title>Logo ONG Ayudemos Juntos</title>
+    <url>https://github.com/SJuan-05/SJuan05.github.io/blob/main/P%C3%A1gina%20web%20ONG/Archivos/Fotos/LogoONG.jpeg</url>
+    <link>https://github.com/SJuan-05/SJuan05.github.io/blob/main/P%C3%A1gina%20web%20ONG/HTML/Principal.html</link>
+    <width>90</width>
+    <height>36</height>
+    </image>
+
+    <item>
+        <title>Video Introductorio ONG</title>
+        <link>https://github.com/SJuan-05/SJuan05.github.io/blob/main/P%C3%A1gina%20web%20ONG/Archivos/Videos/ONGVideo.mp4</link>
+        <description>Video de presentación que muestra nuestra misión y proyectos principales</description>
+    </item>
+
+    <item>
+        <title>Audio Introductorio ONG</title>
+        <link>https://github.com/SJuan-05/SJuan05.github.io/blob/main/P%C3%A1gina%20web%20ONG/Archivos/Audios/ONGAudio.mp3</link>
+        <description>Audio explicativo sobre nuestra organización y objetivos</description>
+    </item>
+
+    <item>
+        <title>Imagen Principal</title>
+        <link>https://github.com/SJuan-05/SJuan05.github.io/blob/main/P%C3%A1gina%20web%20ONG/Archivos/Fotos/PrincipalFoto.webp</link>
+        <description>Imagen de portada de la página principal de Ayudemos Juntos</description>
+    </item>
+
+    <item>
+        <title>Imagen Cómo Ayudar</title>
+        <link>https://github.com/SJuan-05/SJuan05.github.io/blob/main/P%C3%A1gina%20web%20ONG/Archivos/Fotos/ComoAyudarFoto.webp</link>
+        <description>Imagen de cabecera de la sección Cómo Ayudar</description>
+    </item>
+
+    <item>
+        <title>Imagen Contacto</title>
+        <link>https://github.com/SJuan-05/SJuan05.github.io/blob/main/P%C3%A1gina%20web%20ONG/Archivos/Fotos/ContactoFoto.webp</link>
+        <description>Imagen de cabecera de la página de contacto</description>
+    </item>
+</channel>
+</rss>

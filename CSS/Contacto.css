@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+    background-color: #f4f4f4e7;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 10px 20px;
+    height: 50px;
+    color: #ffffffbe;
+}
+
+.nav-izquierda {
+    display: flex;
+    align-items: center;
+}
+
+.nav-titulo {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #ffffffbe;
+}
+
+.nav-derecha a {
+    color: #ffffffbe;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav-derecha a:hover {
+    background: #0a3136;
+    transition: 0.5s;
+    border-radius: 20%;
+}
+
+#logo {
+    background:url("/Archivos/Fotos/ContactoFoto.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 425px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #141212;
+    text-align: center;
+}
+
+.contenedor {
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#formulario {
+    background: #fff;
+    padding: 55px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#formulario input, #formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #9b9696af;
+    border-radius: 5px;
+}
+
+#formulario button {
+    background: #6041cf;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#formulario button:hover {
+    background: #4d3585;
+    transition: 0.5s;
+}
