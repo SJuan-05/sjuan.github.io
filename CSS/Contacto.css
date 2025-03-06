@@ -41,7 +41,7 @@ nav {
 }
 
 #logo {
-    background:url("/Archivos/Fotos/ContactoFoto.webp");
+    background:url("Archivos/Fotos/ContactoFoto.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
