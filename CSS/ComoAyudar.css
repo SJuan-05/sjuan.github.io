@@ -8,7 +8,7 @@ body {
 }
 
 #logo {
-    background:url("/Archivos/Fotos/ComoAyudarFoto.webp");
+    background:url("Archivos/Fotos/ComoAyudarFoto.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
