@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+    background-color: #f4f4f4e7;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 10px 20px;
+    height: 50px;
+    color: #ffffffbe;
+}
+
+.nav-izquierda {
+    display: flex;
+    align-items: center;
+}
+
+.nav-titulo {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #ffffffbe;
+}
+
+.nav-derecha a {
+    color: #ffffffbe;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav-derecha a:hover {
+    background: #0a3136;
+    transition: 0.5s;
+    border-radius: 20%;
+}
+
+#logo {
+    background:url("/Archivos/Fotos/PrincipalFoto.webp");
+    background-repeat: no-repeat;
+    background-size: 200pc;
+    background-position: center;
+    height: 425px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #141212;
+    text-align: center;
+}
+
+#logo h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+#nosotros {
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+#video {
+    height: 100%;
+    width: 100%;
+}
+
+.seccion {
+    margin-bottom: 20px;
+}
+
+.boton {
+    display: inline-block;
+    background: #6041cf;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#boton:hover {
+    background: #4d3585;
+    transition: 0.3s;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+/* Esto representa el estilo del ícono de hamburguesa */
+.menu-icon {
+    display: none; /* Permite ocultar el ícono por defecto */
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #ffffffbe;
+    padding: 10px;
+}
+
+/* Media Query para Tablet (max-width: 1050px) */
+@media (max-width: 1050px) {
+    /* Ajustes para el contenido principal */
+    #nosotros {
+        padding: 20px; /* Separa el contenido de los bordes */
+    }
+
+    /* Algún ajuste para el footer */
+    footer {
+        padding: 20px; /* Separa el texto del footer de los bordes */
+    }
+}
+
+
+/* Media Query para Móvil (max-width: 450px) */
+@media (max-width: 450px) {
+    /* Muestra el ícono de hamburguesa */
+    .menu-icon {
+        display: block;
+    }
+
+    /* Oculta los enlaces de navegación por defecto */
+    .nav-derecha {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: #333;
+        position: absolute;
+        top: 70px; /* Ajusta según la altura de tu nav */
+        left: 0;
+    }
+
+    /* Muestra los enlaces cuando el checkbox está marcado */
+    #menu-toggle:checked ~ .nav-derecha {
+        display: flex;
+    }
+
+    /* Estilo de los enlaces en el menú desplegable */
+    .nav-derecha a {
+        padding: 10px;
+        text-align: center;
+        border-top: 1px solid #444; /* Línea divisoria entre enlaces */
+    }
+
+    /* Algún ajuste para el footer */
+    footer{
+        padding-bottom: 10px; /* Añade padding para separar el texto de abajo */
+        padding-left: 0px; /* Añade padding para separar el texto de los bordes */
+        word-wrap: break-word; /* Evita que el texto sobresalga */
+    }
+}
