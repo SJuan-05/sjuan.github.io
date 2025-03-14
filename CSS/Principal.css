@@ -41,7 +41,7 @@ nav {
 }
 
 #logo {
-    background:url("Archivos/Fotos/PrincipalFoto.webp");
+    background:url("/Archivos/Fotos/PrincipalFoto.webp");
     background-repeat: no-repeat;
     background-size: 200pc;
     background-position: center;
